@@ -1,5 +1,6 @@
 import Accordion from "./(components)/Accordion";
 import Avatar from "./(components)/Avatar";
+import Badge from "./(components)/Badge";
 import Buttons from "./(components)/Buttons";
 import Dropdowns from "./(components)/Dropdowns";
 import Modal from "./(components)/Modal";
@@ -16,6 +17,7 @@ export default function Home() {
       <Theme />
       <Accordion />
       <Avatar />
+      <Badge />
     </>
   );
 }
