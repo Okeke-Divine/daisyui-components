@@ -11,6 +11,12 @@ const Swap = () => {
             <div className="swap-on">😈</div>
             <div className="swap-off">😇</div>
           </label>
+          <br />
+          <label className="swap swap-flip text-6xl">
+            <input type="checkbox" />
+            <div className="swap-on">😇</div>
+            <div className="swap-off">😈</div>
+          </label>
         </div>
       </div>
     </>
