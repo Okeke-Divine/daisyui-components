@@ -3,6 +3,7 @@ import Avatar from "./(components)/Avatar";
 import Badge from "./(components)/Badge";
 import Buttons from "./(components)/Buttons";
 import Card from "./(components)/Card";
+import Carousel from "./(components)/Carousel";
 import Dropdowns from "./(components)/Dropdowns";
 import Modal from "./(components)/Modal";
 import Swap from "./(components)/Swap";
@@ -20,6 +21,7 @@ export default function Home() {
       <Avatar />
       <Badge />
       <Card />
+      <Carousel />
     </>
   );
 }
