@@ -11,6 +11,7 @@ import Diff from "./(components)/Diff";
 import Dropdowns from "./(components)/Dropdowns";
 import Keyboard from "./(components)/Keyboard";
 import Modal from "./(components)/Modal";
+import Stats from "./(components)/Stats";
 import Swap from "./(components)/Swap";
 import Theme from "./(components)/Theme";
 
@@ -32,6 +33,7 @@ export default function Home() {
       <Countdown />
       <Diff />
       <Keyboard />
+      <Stats />
     </>
   );
 }
