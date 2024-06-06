@@ -6,7 +6,7 @@ const Menu = () => {
       <div>
         <h1>Menu</h1>
         <div>
-          <ul className="menu bg-base-200 rounded-box">
+          <ul className="menu bg-base-200 rounded-box max-w-[100px]">
             <li>
               <a className="tooltip tooltip-right" data-tip="Home">
                 <svg
