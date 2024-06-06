@@ -11,6 +11,7 @@ import Countdown from "./(components)/Countdown";
 import Diff from "./(components)/Diff";
 import Dropdowns from "./(components)/Dropdowns";
 import Keyboard from "./(components)/Keyboard";
+import Menu from "./(components)/Menu";
 import Modal from "./(components)/Modal";
 import Stats from "./(components)/Stats";
 import Swap from "./(components)/Swap";
@@ -40,6 +41,7 @@ export default function Home() {
       <Table />
       <Timeline />
       <BreadCrumbs />
+      <Menu />
     </>
   );
 }
