@@ -1,6 +1,7 @@
 import Accordion from "./(components)/Accordion";
 import Avatar from "./(components)/Avatar";
 import Badge from "./(components)/Badge";
+import BreadCrumbs from "./(components)/BreadCrumbs";
 import Buttons from "./(components)/Buttons";
 import Card from "./(components)/Card";
 import Carousel from "./(components)/Carousel";
@@ -38,6 +39,7 @@ export default function Home() {
       <Stats />
       <Table />
       <Timeline />
+      <BreadCrumbs />
     </>
   );
 }
