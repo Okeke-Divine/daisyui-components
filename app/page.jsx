@@ -7,6 +7,7 @@ import Carousel from "./(components)/Carousel";
 import ChatBubble from "./(components)/ChatBubble";
 import Collapse from "./(components)/Collapse";
 import Countdown from "./(components)/Countdown";
+import Diff from "./(components)/Diff";
 import Dropdowns from "./(components)/Dropdowns";
 import Modal from "./(components)/Modal";
 import Swap from "./(components)/Swap";
@@ -28,6 +29,7 @@ export default function Home() {
       <ChatBubble />
       <Collapse />
       <Countdown />
+      <Diff />
     </>
   );
 }
