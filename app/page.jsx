@@ -13,7 +13,9 @@ import Keyboard from "./(components)/Keyboard";
 import Modal from "./(components)/Modal";
 import Stats from "./(components)/Stats";
 import Swap from "./(components)/Swap";
+import Table from "./(components)/Table";
 import Theme from "./(components)/Theme";
+import Timeline from "./(components)/Timeline";
 
 export default function Home() {
   return (
@@ -34,6 +36,8 @@ export default function Home() {
       <Diff />
       <Keyboard />
       <Stats />
+      <Table />
+      <Timeline />
     </>
   );
 }
