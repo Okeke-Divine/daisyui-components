@@ -9,6 +9,7 @@ import Collapse from "./(components)/Collapse";
 import Countdown from "./(components)/Countdown";
 import Diff from "./(components)/Diff";
 import Dropdowns from "./(components)/Dropdowns";
+import Keyboard from "./(components)/Keyboard";
 import Modal from "./(components)/Modal";
 import Swap from "./(components)/Swap";
 import Theme from "./(components)/Theme";
@@ -30,6 +31,7 @@ export default function Home() {
       <Collapse />
       <Countdown />
       <Diff />
+      <Keyboard />
     </>
   );
 }
