@@ -9,6 +9,7 @@ import ChatBubble from "./(components)/ChatBubble";
 import Collapse from "./(components)/Collapse";
 import Countdown from "./(components)/Countdown";
 import Diff from "./(components)/Diff";
+import Drawer from "./(components)/Drawer";
 import Dropdowns from "./(components)/Dropdowns";
 import Keyboard from "./(components)/Keyboard";
 import Menu from "./(components)/Menu";
@@ -42,6 +43,7 @@ export default function Home() {
       <Timeline />
       <BreadCrumbs />
       <Menu />
+      <Drawer />
     </>
   );
 }
