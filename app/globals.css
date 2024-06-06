@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layout base{
+    h1{
+        @apply font-bold text-3xl;
+    }
+}

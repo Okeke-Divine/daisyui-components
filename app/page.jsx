@@ -1,8 +1,9 @@
-import Image from "next/image";
+import Buttons from "./(components)/Buttons";
 
 export default function Home() {
   return (
     <>
+      <Buttons />
     </>
   );
 }
