@@ -1,3 +1,4 @@
+import Accordion from "./(components)/Accordion";
 import Buttons from "./(components)/Buttons";
 import Dropdowns from "./(components)/Dropdowns";
 import Modal from "./(components)/Modal";
@@ -12,6 +13,7 @@ export default function Home() {
       <Modal />
       <Swap />
       <Theme />
+      <Accordion />
     </>
   );
 }
